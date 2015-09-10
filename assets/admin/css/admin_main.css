@@ -1,0 +1,84 @@
+.logopanel {
+    padding: 0px;
+    text-align: center;
+    text-align: left;
+    display: block;
+    background-color: #3d3d3d;
+}
+
+.logopanel img {
+    width: 90%;
+    padding: 10px 0px;
+    padding-left: 15px;
+}
+
+.signinpanel .logopanel{  
+    padding : 0px;
+    width: 100%;
+    background-color: #3d3d3d;
+}
+
+.signinpanel .logopanel img { 
+    width: auto;
+    padding: 0px;
+}
+
+
+
+.signinpanel form {
+    padding: 0;
+
+}
+.signinpanel fieldset {
+    padding: 30px;
+}
+
+.table tbody > tr > td {
+    word-break :break-all;
+    /*background-color: silver;*/
+}
+
+.subcats{
+    margin-left: 20px;
+}
+
+
+#shipping-details{}
+#shipping-details .btn{border-radius:0; width:300px;}
+#shipping-details .btn .caret{margin-left:65%;}
+#shipping-details .dropdown-menu {padding:0;border-radius:0;  box-shadow:none; width:100%;}
+#shipping-details .dropdown-menu li .img-responsive{max-width:32px; margin-right:15px; display:inline-block;}
+#shipping-details .dropdown-menu>li>a{padding:10px 20px;}
+
+#shipping-details .btn a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    display: table;
+}
+#shipping-details .btn .img-responsive{float: left;
+                                       display: table-cell;
+                                       max-width: 32px;}
+#shipping-details .btn a span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    width: 80%;
+}
+#shipping-details .btn a{
+    color:inherit;
+    cursor: pointer;
+}
+#shipping-details .btn a:hover{
+    color:inherit;
+    text-decoration: none;
+}
+
+
+//css for loader whle calling ajax
+
+/* Absolute Center CSS Spinner */
+
+
+
